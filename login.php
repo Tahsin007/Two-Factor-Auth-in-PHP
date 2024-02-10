@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign Up</title>
+
+</head>
+
+<body>
+
+    <a href="index.html" class="home-button">Home</a>
+
+
+    <div class="signup-container" id="signup-container">
+        <h2>Log in Page</h2>
+        <form class="signup-form" action="/login_process.php" method="post">
+            <label for="username">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Log in</button>
+        </form>
+
+        <p class="or">
+            OR
+        </p>
+
+        <!-- Login button -->
+        <button class="login-button" onclick="window.location.href='sign_up.php'">Sign Up</button>
+    </div>
+
+</body>
+
+</html>
